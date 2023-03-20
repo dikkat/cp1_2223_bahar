@@ -2,7 +2,7 @@ package week1;
 
 public class Week1 {
     
-    // This is the main method, here we execute program and stuf.....
+    // This is the main method, here we the begin program execution.....
     public static void main(String[] args) {
         int radius = 11235; // radius = yarıçap
         double pi = 3.1415;
@@ -24,7 +24,7 @@ public class Week1 {
         int a3 = 23;
         double sum = a1 + a2 + a3;
         double average = sum / 3;
-        //double average = a1 + a2 + a3 / 3.0;
+        //double average = a1 + a2 + a3 / 3.0; // WRONG
         System.out.println(average);
     }
 }
